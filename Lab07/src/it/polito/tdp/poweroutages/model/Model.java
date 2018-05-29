@@ -63,7 +63,7 @@ public class Model {
 		
 			@Override
 			public int compare(PowerOutage o1, PowerOutage o2) {
-				return o1.getDataInizio().compareTo(o2.getDataInizio());
+				return o1.getDataInizio().compareTo(o2.getDataInizio()); //PER POTER FARE DIFFERENZA TRA DATA EVENTO PIU VECCHIO E ULTIMO INSERITO IN PARZIALE	
 				
 			}
 		});

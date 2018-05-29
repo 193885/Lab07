@@ -11,7 +11,7 @@ public class PowerOutage {
 	private LocalDateTime dataFine;
 	
 	private int anno;   //ATTRIBUTI UTILI PER ALGORITMO RICORSIVO
-	private long  durata;
+	private long  durata; // SERVE IN OUTPUT
 	
 	private int idNerc; // realzione 1 a n a un black out corrisponde una sola nerc NON E' UN ATTRIBUTO DEL JAVA BEAN IN QUANTO COSTITUISCE UNA CHIAVE ESTERNA
 		
